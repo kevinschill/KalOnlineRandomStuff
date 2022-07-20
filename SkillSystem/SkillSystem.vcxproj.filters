@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CPlayer">
+      <UniqueIdentifier>{938d1353-c5c4-44c6-b87a-93c504e6a4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDatabase">
+      <UniqueIdentifier>{413158fc-2e90-4ac6-83c8-8f31247d0033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillSystem">
+      <UniqueIdentifier>{8f29c012-898e-4186-afed-f0be8efc831a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillSystem\Mage">
+      <UniqueIdentifier>{f0e0e541-cee6-4736-8706-06592c217edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillSystem\Knight">
+      <UniqueIdentifier>{ec385cee-728f-4c35-a9c8-fdc4aae35787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillSystem\Archer">
+      <UniqueIdentifier>{2a2a791f-b925-4485-8e3b-54283d5a362b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMonster">
+      <UniqueIdentifier>{933e2f84-1280-4f6f-b263-3ff85aceaed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomSystems">
+      <UniqueIdentifier>{5452edc8-1588-42cb-b8dc-d8a12ad44220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomSystems\WorldEvent">
+      <UniqueIdentifier>{b34ba3b7-237f-459f-a1c8-a08165f17ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomSystems\Buff">
+      <UniqueIdentifier>{8a5632a2-6beb-405e-b199-234ab80d7d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomSystems\RewardQuest">
+      <UniqueIdentifier>{52210765-79a8-4a1c-93a7-da4855539fc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinSplash.cpp">
+      <Filter>SkillSystem\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordDance.cpp">
+      <Filter>SkillSystem\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameInjection.cpp">
+      <Filter>SkillSystem\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Icicle.cpp">
+      <Filter>SkillSystem\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="ThunderBolt.cpp">
+      <Filter>SkillSystem\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicIntensification.cpp">
+      <Filter>SkillSystem\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowRain.cpp">
+      <Filter>SkillSystem\Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CDatabase.cpp">
+      <Filter>CDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkill.cpp">
+      <Filter>SkillSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMsg.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStart.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRestart.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillExecute.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCommand.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AllotExp.cpp">
+      <Filter>CMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEvent.cpp">
+      <Filter>CustomSystems\WorldEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff.cpp">
+      <Filter>CustomSystems\Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="CRewardQuest.cpp">
+      <Filter>CustomSystems\RewardQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigParser.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningArrow.cpp">
+      <Filter>SkillSystem\Mage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CDatabase.h">
+      <Filter>CDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillSystem.h">
+      <Filter>SkillSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigParser.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEvent.h">
+      <Filter>CustomSystems\WorldEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff.h">
+      <Filter>CustomSystems\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="CRewardQuest.h">
+      <Filter>CustomSystems\RewardQuest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+</Project>
